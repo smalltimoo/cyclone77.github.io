@@ -5,33 +5,15 @@ permalink: /tags/
 public: true
 ---
 
-<div class="page clearfix">
-    <div class="left">
-        <h1>{{page.title}}</h1>
-        <hr>
-        {% capture tags %}
-          {% for tag in site.tags %}
-            {{ tag[0] }}
-          {% endfor %}
-        {% endcapture %}
-        {% assign sortedtags = tags | split:' ' | sort %}
-
-        <ul>
-        {% for tag in sortedtags %}
-          <h2 id="{{ tag }}">{{ tag }}</h2>
-          {% for post in site.tags[tag] %}
-            <li>
-                <time>
-                {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-                </time>
-                <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-
-                {% include category.html %}
-                {% include tag.html %}
-            </li>
-          {% endfor %}
+{% if site.tags | size != 0 %}
+<div class="tagslist">
+    <p class="asidetitle">标签</p>
+        <ul class="clearfix">
+        {% for item in site.tags %}
+            {% if item[1] | size != 0 %}
+                <li><a href="{{ site.baseurl }}/tags/#{{ item[0] }}" title="{{ item[0] }}">{{ item[0] }}<sup>{{ item[1] | size }}</sup></a></li>
+            {% endif %}
         {% endfor %}
         </ul>
-
-    </div>
 </div>
+{% endif %}
