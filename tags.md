@@ -5,7 +5,6 @@ permalink: /tags/
 public: true
 ---
 
-
 <div class="page clearfix">
     <div class="left">
         <h1>{{page.title}}</h1>
