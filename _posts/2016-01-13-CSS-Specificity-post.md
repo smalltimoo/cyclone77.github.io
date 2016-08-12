@@ -3,7 +3,7 @@ layout: post
 title:  CSS优先级
 date:   2016-01-13 16:33:07
 tags: [CSS]
-comments: true
+categories: css
 ---
 
 **CSS优先级[^footNote0]**
