@@ -1,7 +1,7 @@
 # Site settings
 title: Cyclone77's Blog
 url: Cyclone77.github.io    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: Cyclone77.github.io # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+baseurl: /Cyclone77.github.io # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: ""
 
