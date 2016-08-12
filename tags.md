@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tags
-permalink: /tag/
+permalink: /tags/
 public: true
 ---
 
