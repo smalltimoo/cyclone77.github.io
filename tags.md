@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: Tags
 permalink: /tag/
-public: true
+icon: tags
 ---
 
 <div class="page clearfix">
@@ -33,36 +33,31 @@ public: true
         {% endfor %}
         </ul>
     </div>
-
-    <div class="">
-        <!-- 标签列表 -->
-        {% for tag in site.tags %}
-        <div class="one-tag-list">
-            <span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                <span class="tag-text">{{ tag[0] }}</span>
-            </span>
-            {% for post in tag[1] %}
-              <!-- <li class="listing-item">
-              <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-              <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-              </li> -->
-             <div class="post-preview">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="post-title">
-                        {{ post.title }}
-                    </h2>
-                    {% if post.subtitle %}
-                    <h3 class="post-subtitle">
-                        {{ post.subtitle }}
-                    </h3>
-                    {% endif %}
-                </a>
-                <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-            </div>
-            <hr>
-            {% endfor %}
+    {% for tag in site.tags %}
+    <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+            <span class="tag-text">{{ tag[0] }}</span>
+        </span>
+        {% for post in tag[1] %}
+          <!-- <li class="listing-item">
+          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          </li> -->
+         <div class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h2 class="post-title">
+                    {{ post.title }}
+                </h2>
+                {% if post.subtitle %}
+                <h3 class="post-subtitle">
+                    {{ post.subtitle }}
+                </h3>
+                {% endif %}
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
         </div>
+        <hr>
         {% endfor %}
     </div>
+    {% endfor %}
 </div>
-
