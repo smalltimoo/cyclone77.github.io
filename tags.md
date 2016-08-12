@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Tags
-permalink: /tag/
-icon: tags
+permalink: /tags/
+public: true
 ---
 
 <div class="page clearfix">
