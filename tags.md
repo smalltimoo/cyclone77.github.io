@@ -2,7 +2,7 @@
 layout: default
 title: Tags
 permalink: /tag/
-icon: tags
+public: true
 ---
 
 <div class="page clearfix">
