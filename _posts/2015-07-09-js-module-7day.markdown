@@ -1,5 +1,5 @@
 ---
-layout:     keynote
+layout:     post
 title:      "Example Post using Keynote Layout"
 subtitle:   "Keynote: JavaScript Modularization Journey"
 date:       2015-07-09
