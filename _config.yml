@@ -47,7 +47,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: cyclone77
+#disqus_username: cyclone77
 
 # Duoshuo settings
 #duoshuo_username: cyclone77
@@ -59,7 +59,7 @@ disqus_username: cyclone77
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 ga_domain: huangxuan.me
