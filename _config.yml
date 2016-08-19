@@ -79,22 +79,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
-# Friends
-friends: [
-    {
-        title: "Cyclone77's Blog",
-        href: "http://cyclone77.github.io"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
-]
+# 友情连接
+friends: [{
+    title: "Cyclone77",
+    href: "http://cyclone77.github.io"
+}]
