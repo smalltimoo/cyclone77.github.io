@@ -439,6 +439,10 @@ pre {
     position: relative;
     overflow: hidden;
 }
+.pagingShow{
+     border-radius: inherit;
+}
+
 
 /*返回顶部*/
 #back-to-top {
@@ -458,3 +462,4 @@ pre {
         height: 30px;
         line-height: 30px;
     }
+
