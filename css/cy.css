@@ -299,7 +299,7 @@ pre {
     position: relative;
     overflow: hidden;
 }
-    .post-preview a{
+    .post-preview .postTitle{
         display: block;
     }
 .post-meta{
