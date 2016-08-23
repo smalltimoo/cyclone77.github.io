@@ -343,3 +343,8 @@ pre {
     color: #555555;
     padding-top: 28px;
 }
+
+/*文章内容*/
+.previous .pager li > a{
+    border-radius: inherit;
+}
