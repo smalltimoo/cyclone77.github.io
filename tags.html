@@ -23,12 +23,13 @@ header-img: "img/tag-bg.jpg"
 				  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
 	                    <span class="tag-text">{{ tag[0] }}</span>
 	                </span>
+
+					<div class="list-group">
 					{% for post in tag[1] %}
 					  <!-- <li class="listing-item">
 					  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
 					  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 					  </li> -->
-					 <div class="list-group">
 					    <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item">
 					        <h4 class="list-group-item-heading">
 	                            {{ post.title }}
@@ -39,10 +40,10 @@ header-img: "img/tag-bg.jpg"
 					        </p>
 					        {% endif %}
 					    </a>
-					    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-					</div>
+					    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->					
 					<hr>
 					{% endfor %}
+					</div>
 				</div>
 				{% endfor %}
 
