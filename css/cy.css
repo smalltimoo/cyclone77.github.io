@@ -427,6 +427,12 @@ pre {
     margin: 0 7px 7px 0;
     text-decoration: none;
 }
+    .tags a:hover{
+        color: #ffffff;
+        background: #e67e22;
+        border: 1px solid #e67e22;
+        text-decoration: none;
+    }
 
 /*底部*/
 #footer {
