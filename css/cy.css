@@ -177,6 +177,12 @@ pre {
     .main-header .site-heading{
         height: 70px;
     }
+.navbar-collapse .nva a{
+    color: #505050;
+    line-height: 4em;
+    display: block;
+    padding: 0 21px;
+}
 
 
 /* main-navigation */
