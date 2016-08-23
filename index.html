@@ -22,6 +22,7 @@ description: "随心"
     <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-default">阅读全文</a>
 
     <p class="post-meta">
+        <i class="glyphicon glyphicon-calendar"></i>
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>

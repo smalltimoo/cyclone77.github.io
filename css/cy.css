@@ -76,6 +76,7 @@ img {
     border: 1px solid #e67e22;
     background: #e67e22;
     color: #ffffff;
+    margin: 20px 0;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -177,13 +178,16 @@ pre {
     .main-header .site-heading{
         height: 70px;
     }
-.navbar-collapse .nva a{
+.navbar-collapse .nav a{
     color: #505050;
     line-height: 4em;
     display: block;
     padding: 0 21px;
 }
-
+.navbar-brand{
+    height: 56px;
+    line-height: inherit;
+}
 
 /* main-navigation */
 .main-navigation {
@@ -294,4 +298,8 @@ pre {
     margin-bottom: 35px;
     position: relative;
     overflow: hidden;
+}
+.post-meta{
+    border-top: 1px solid #ebebeb;
+    padding: 21px 0 0;
 }
