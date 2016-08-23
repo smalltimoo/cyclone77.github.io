@@ -418,6 +418,15 @@ pre {
         left: 0;
         bottom: -1px;
     }
+.tags a{
+    border: 1px solid #ebebeb;
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    text-decoration: none;
+}
 
 /*底部*/
 #footer {
@@ -440,7 +449,7 @@ pre {
     overflow: hidden;
 }
 .pagingShow{
-     border-radius: inherit;
+     border-radius: inherit !important;
 }
 
 
