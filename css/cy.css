@@ -293,13 +293,39 @@ pre {
 
 /*首页文章列表*/
 .post-preview{
-    padding: 35px;
+    padding: 20px 35px;
     background: #ffffff;
     margin-bottom: 35px;
     position: relative;
     overflow: hidden;
 }
+    .post-preview a{
+        display: block;
+    }
 .post-meta{
     border-top: 1px solid #ebebeb;
     padding: 21px 0 0;
 }
+    .post-meta i{
+        margin-right: 10px;
+    }
+
+
+/*侧边栏*/
+.catListTitle {
+    margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+}
+
+    .catListTitle:after {
+        content: "";
+        width: 90px;
+        height: 1px;
+        background: #e67e22;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+    }
