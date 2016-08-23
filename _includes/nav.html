@@ -38,13 +38,21 @@
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{{ site.baseurl }}/">Home</a>
+                        <a href="{{ site.baseurl }}/">首页</a>
                     </li>
                     {% for page in site.pages %}{% if page.title %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
                     {% endif %}{% endfor %}
+                    <li>
+                        <a href="javascript:;" title="移动端查看"
+            data-container="body" data-toggle="popover" data-placement="bottom"
+            data-content='<img width="120" height="120" src="/img/o_cym.png" />'
+            data-html="true" data-trigger="focus" >
+                            <span class="glyphicon glyphicon-qrcode"></span>移动端
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
