@@ -312,6 +312,11 @@ pre {
 
 
 /*侧边栏*/
+.newsItem {
+    background: #ffffff;
+    padding: 21px 30px;
+    margin-bottom: 35px;
+}
 .catListTitle {
     margin-top: 0;
     padding-bottom: 7px;
