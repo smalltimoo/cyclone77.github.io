@@ -334,3 +334,12 @@ pre {
         left: 0;
         bottom: -1px;
     }
+
+/*底部*/
+#footer {
+    background: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    color: #555555;
+    padding-top: 28px;
+}
