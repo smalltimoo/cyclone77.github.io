@@ -2,7 +2,7 @@
 layout: post
 title:  jQuery滚动条插件
 date:   2015-12-30 15:03:21
-tags: [javascript,jQuery]
+tags: [JavaScript,jQuery]
 comments: true
 ---
 偶然发现IE下滚动条显示的太丑了，谷歌火狐还能设置点样式，在加上练习编写jQuery插件，就拿这个来练手，大神们多多指点.

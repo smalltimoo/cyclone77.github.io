@@ -2,7 +2,7 @@
 layout: post
 title:  javascript Array原型方法
 date:   2016-01-06 16:05:14
-tags: [javascript]
+tags: [JavaScript]
 comments: true
 ---
 以下内容有MDN整理所得。
