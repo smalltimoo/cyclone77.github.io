@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      jekyll,模板,语法
+title:      jekyll模板、语法
 subtitle:   jekyll是静态网站/博客生成工具，在这里记录一下jekyll的变量及模板语法，jekyll基于Liquid模板进行扩展，大部分可参考Liquid语法
 date:       2016-08-24
 author:     "Cyclone77"
@@ -146,10 +146,3 @@ console.log('Hello world!')
 - `| date_to_long_string` 07 November 2008
 - `| date_to_rfc822` Mon, 07 Nov 2008 13:07:54 -0800
 - `| date_to_xmlschema` 2008-11-07T13:07:54-08:00
-
-## 更多相关内容
-
-> 1. jekyll变量 <http://jekyllrb.com/docs/variables>
-> 2. jekyll模板 <http://jekyllrb.com/docs/templates>
-> 3. liquid详细介绍 <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
-> 4. jekyll的推荐markdown引擎-redcarpet <https://github.com/vmg/redcarpet>
