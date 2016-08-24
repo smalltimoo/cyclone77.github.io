@@ -30,7 +30,14 @@
       s.parentNode.insertBefore(o, s);
     }
 </script>
-
+<!--滚动到顶部-->
+<script>
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 1000);
+        return false;
+    });
+</script>
 <!-- 
      Because of the native support for backtick-style fenced code blocks 
      right within the Markdown is landed in Github Pages, 
@@ -61,7 +68,15 @@
             };
             $('#tag_cloud a').tagcloud();
         })
-    }
+        $(window).scroll(function() {
+            var scrollHeight = $(document).scrollTop();
+            if (scrollHeight > 60) {
+                $('#tag_cloud').addClass('lighted');
+            } else {
+                $('#tag_cloud').removeClass('lighted');
+            }
+        });
+    }    
 </script>
 
 <!--fastClick.js -->
