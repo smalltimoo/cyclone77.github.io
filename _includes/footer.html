@@ -32,11 +32,24 @@
 </script>
 <!--滚动到顶部-->
 <script>
-    $('#back-to-top').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: 0 }, 1000);
-        return false;
-    });
+    $(function(){
+        $('#back-to-top').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, 1000);
+            return false;
+        });
+
+        var oTop = $("#tag_cloud").offset().top;
+        var sTop = 0;
+        $(window).scroll(function() {
+            sTop = $(this).scrollTop();
+            if (sTop >= oTop) {
+              $("#tag_cloud").addClass('lighted');
+            } else {
+              $("#tag_cloud").removeClass('lighted');
+            }
+        });
+    })      
 </script>
 <!-- 
      Because of the native support for backtick-style fenced code blocks 
@@ -68,15 +81,6 @@
             };
             $('#tag_cloud a').tagcloud();
         })
-        var oTop = $("#tag_cloud").offset().top;
-        var sTop = 0;
-        $(window).scroll(function() {
-            sTop = $(this).scrollTop();
-            if (sTop >= oTop) {
-              $("#tag_cloud").addClass('lighted');
-            } else {
-              $("#tag_cloud").removeClass('lighted');
-        });
     }    
 </script>
 
