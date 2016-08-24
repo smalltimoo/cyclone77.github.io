@@ -68,14 +68,17 @@
             };
             $('#tag_cloud a').tagcloud();
         })
+        /*
+        var oTop = $("#tag_cloud").offset().top;
+        var sTop = 0;
         $(window).scroll(function() {
-            var scrollHeight = $(document).scrollTop();
-            if (scrollHeight > 60) {
-                $('#tag_cloud').addClass('lighted');
+            sTop = $(this).scrollTop();
+            if (sTop >= oTop) {
+              $("#tag_cloud").addClass('lighted');
             } else {
-                $('#tag_cloud').removeClass('lighted');
-            }
+              $("#tag_cloud").removeClass('lighted');
         });
+        */
     }    
 </script>
 
