@@ -478,3 +478,8 @@ pre {
         line-height: 30px;
     }
 
+/*标签*/
+.one-tag-list span{
+    margin: 5px 1px;
+    display: block;
+}

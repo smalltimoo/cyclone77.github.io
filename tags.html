@@ -13,7 +13,7 @@ header-img: "img/tag-bg.jpg"
 	            <!-- 标签列表 -->
 				{% for tag in site.tags %}
 				<div class="one-tag-list">
-				  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+				  	<span class="label label-success" id="{{ tag[0] }}">
 	                    <span class="tag-text">{{ tag[0] }}</span>
 	                </span>
 
@@ -42,7 +42,7 @@ header-img: "img/tag-bg.jpg"
 
 			<div class="col-md-4">
 	            <!-- 标签云 -->
-				<div id='tag_cloud' class="tags">
+				<div id='tag_cloud' class="tags newsItem">
 					{% for tag in site.tags %}
 					<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 					{% endfor %}
