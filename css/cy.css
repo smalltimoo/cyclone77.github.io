@@ -483,3 +483,11 @@ pre {
     margin: 5px 1px;
     display: block;
 }
+#tag_cloud{
+    margin-top: 5px;
+}
+.lighted {
+    position: fixed;
+    top: 0px;
+    transition:all .5s;
+}

@@ -13,7 +13,7 @@ header-img: "img/tag-bg.jpg"
 	            <!-- 标签列表 -->
 				{% for tag in site.tags %}
 				<div class="one-tag-list">
-				  	<span class="label label-success" id="{{ tag[0] }}">
+				  	<span class="label label-info" id="{{ tag[0] }}">
 	                    <span class="tag-text">{{ tag[0] }}</span>
 	                </span>
 
@@ -51,3 +51,15 @@ header-img: "img/tag-bg.jpg"
 		</div>
 	</div>
 </div>
+<script>
+	$(function() {
+	    $(window).scroll(function() {
+	        var scrollHeight = $(document).scrollTop();
+	        if (scrollHeight > 60 px) {
+	            $('#tag_cloud').addClass('lighted');
+	        } else {
+	            $('#tag_cloud').removeClass('lighted');
+	        }
+	    });
+	})
+</script>
