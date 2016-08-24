@@ -490,4 +490,5 @@ pre {
     position: fixed;
     top: 0px;
     transition:all .5s;
+    width: 360px;
 }
