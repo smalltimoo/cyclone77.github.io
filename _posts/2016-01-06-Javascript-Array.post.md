@@ -1,9 +1,14 @@
 ---
-layout: post
-title:  javascript Array原型方法
-date:   2016-01-06 16:05:14
-tags: [JavaScript]
-comments: true
+layout:     post
+title:      javascript Array原型方法
+subtitle:   ""
+date:       2016-01-06 16:05:14
+author:     "Cyclone77"
+header-img: "img/post-bg-js-version.jpg"
+permalink:  "/1472014211844"
+tags:
+    - 前端开发
+    - JavaScript
 ---
 以下内容有MDN整理所得。
 

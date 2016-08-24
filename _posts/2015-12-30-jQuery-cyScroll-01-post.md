@@ -1,9 +1,15 @@
 ---
 layout: post
 title:  jQuery滚动条插件
-date:   2015-12-30 15:03:21
-tags: [JavaScript,jQuery]
-comments: true
+subtitle:   ""
+date:       2015-12-30 15:03:21
+author:     "Cyclone77"
+header-img: "img/post-bg-js-version.jpg"
+permalink:  "/1472014171763"
+tags:
+    - 前端开发
+    - JavaScript
+    - jQuery
 ---
 偶然发现IE下滚动条显示的太丑了，谷歌火狐还能设置点样式，在加上练习编写jQuery插件，就拿这个来练手，大神们多多指点.
 仓库地址：[jQuery滚动条插件仓库][jQuery-cyScroll].

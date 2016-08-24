@@ -1,9 +1,14 @@
 ---
-layout: post
-title:  CSS优先级
-date:   2016-01-13 16:33:07
-tags: [CSS]
-comments: true
+layout: 	post
+title:  	CSS优先级
+date:   	2016-01-13 16:33:07
+subtitle:   ""
+author:     "Cyclone77"
+header-img: "img/post-bg-js-version.jpg"
+permalink:  "/1472014256629"
+tags:
+    - 前端开发
+    - CSS
 ---
 
 **CSS优先级[^footNote0]**
