@@ -14,7 +14,7 @@
         {% for tag in site.tags offset:1 limit:10 %}
             <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
         {% endfor %}
-        <a href="/tags/">更多</a>
+        <a href="/tags/">...</a>
     </div>
 </section>
 {% endif %}
