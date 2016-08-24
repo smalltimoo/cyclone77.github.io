@@ -6,7 +6,7 @@ date:       2016-08-24
 author:     "Cyclone77"
 header-img: "img/post-bg-js-version.jpg"
 tags:
-    - jekyll
+    - Jekyll
 ---
 {% if page.description %}
 >{{ page.description }}
